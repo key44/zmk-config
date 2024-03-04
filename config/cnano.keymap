@@ -89,10 +89,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-        &kp Q             &kp W         &kp E               &kp R    &kp T          &kp Y                &kp U              &kp I              &kp O                  &kp P
-&lhht LCTRL A  &lhht LEFT_ALT S  &lhht LGUI D  &lhht LEFT_SHIFT F    &kp G          &kp H  &rhht RIGHT_SHIFT J  &rhht RIGHT_GUI K  &rhht RIGHT_ALT L  &rhht RCTRL SEMICOLON
-      &lt 6 Z             &kp X         &kp C               &kp V    &kp B          &kp N                &kp M          &kp COMMA            &kp DOT               &kp FSLH
-                                 &lt 1 ESCAPE         &lt 4 SPACE  &kp TAB    &lt 2 ENTER      &lt 3 BACKSPACE
+&kp ESC  &kp Q  &kp W  &kp E      &kp R        &kp T                 &kp Y       &kp U        &kp I               &kp O    &kp P     &kp BSPC
+&kp TAB  &kp A  &kp S  &kp D      &kp F        &kp G                 &kp H       &kp J        &kp K               &kp L    &kp SEMI  &kp SQT
+&kp DEL  &kp Z  &kp X  &kp C      &kp V        &kp B                 &kp N       &kp M        &kp COMMA           &kp DOT  &kp FSLH  &kp BACKSLASH
+                       &kp ESC    &kp ESC  	   &kp ESC               &kp ESC     &kp ESC      &kp ESCuuuuu
             >;
             trackball-bindings = <&tmv_coarse>;
         };
